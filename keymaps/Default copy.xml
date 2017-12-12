@@ -1,0 +1,14 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="Back">
+    <mouse-shortcut keystroke="button4" />
+  </action>
+  <action id="Forward">
+    <mouse-shortcut keystroke="button5" />
+  </action>
+  <action id="NextSplitter">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="PrevSplitter">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+</keymap>

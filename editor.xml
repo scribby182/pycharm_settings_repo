@@ -1,0 +1,21 @@
+<application>
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="Python" value="true" />
+      </map>
+    </option>
+    <option name="USE_SOFT_WRAPS" value="" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern icon="important" pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern icon="question" pattern="\bfeature\b*" />
+    <filter name="TODO Before Commit">
+      <pattern index="2" />
+    </filter>
+    <filter name="New Features">
+      <pattern index="2" />
+    </filter>
+  </component>
+</application>
