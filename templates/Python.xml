@@ -1,29 +1,32 @@
 <templateSet group="Python">
-  <template name="ve" value="raise ValueError(&quot;Invalid value for $VAR$ ('{0}')$ADLTXT$&quot;.format($VAR$))" description="Value Error Template" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="ADLTXT" expression="" defaultValue="something else" alwaysStopAt="true" />
+  <template name="pfv" value="print(f'$variable$ = {$variable$}')" description="Print F-String Variable" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="def" value="def $fnname$($args$):&#10;    &quot;&quot;&quot;$docstring$&#10;    &#10;    Args:&#10;        $args$&#10;       &#10;    Returns:&#10;        $return_value$&#10;    &quot;&quot;&quot;&#10;    $END$" description="function definition" toReformat="false" toShortenFQNames="true">
-    <variable name="fnname" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="docstring" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="return_value" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="pf" value="print(f'$text$')" description="Print F-String" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="se" value="self.$var$ = $var$&#10;$END$" description="set instance variable" toReformat="false" toShortenFQNames="true">
-    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="npprec" value="with np.printoptions(precision=$prec$, suppress=True):&#10;    print(f'$varname$=\n{$varname$}')" description="Numpy Precision With Block" toReformat="false" toShortenFQNames="true">
+    <variable name="prec" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="pf" value="print(&quot;$string$&quot;.format($args$))&#10;$END$" description="print formatted string" toReformat="false" toShortenFQNames="true">
-    <variable name="string" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="args" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="ifve" value="if $variable$ $condition$:&#10;    pass&#10;elif $variable$ $condition$:&#10;    pass&#10;else:&#10;    raise ValueError(&quot;Invalid value for $variable$ '{$variable$}'&quot;)" description="If block with populated value error" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ve" value="raise ValueError(f'Invalid value for $variable$ &quot;{$variable$}&quot;')" description="ValueError" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>

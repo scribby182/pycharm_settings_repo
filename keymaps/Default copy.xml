@@ -1,14 +1,30 @@
 <keymap version="1" name="Default copy" parent="$default">
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt left" />
   </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl w" />
+  </action>
+  <action id="EditorSelectWord" />
+  <action id="EditorUnSelectWord" />
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt right" />
   </action>
-  <action id="NextSplitter">
+  <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
   </action>
-  <action id="PrevSplitter">
+  <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl w" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift alt 8" />
+  </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="shift alt 2" />
   </action>
 </keymap>
