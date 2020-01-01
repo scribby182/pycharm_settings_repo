@@ -10,6 +10,7 @@
     <mouse-shortcut keystroke="shift alt button1" />
     <mouse-shortcut keystroke="alt button1" />
   </action>
+  <action id="EditorContextInfo" />
   <action id="EditorCreateRectangularSelectionOnMouseDrag">
     <mouse-shortcut keystroke="shift alt button1" />
     <mouse-shortcut keystroke="button2" />
@@ -17,6 +18,9 @@
   </action>
   <action id="EditorSelectWord" />
   <action id="EditorUnSelectWord" />
+  <action id="FillParagraph">
+    <keyboard-shortcut first-keystroke="alt q" />
+  </action>
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="alt right" />
