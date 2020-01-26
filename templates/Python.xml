@@ -1,11 +1,11 @@
 <templateSet group="Python">
-  <template name="pfv" value="print(f'$variable$ = {$variable$}')" description="Print F-String Variable" toReformat="false" toShortenFQNames="true">
+  <template name="pfv" value="print(f&quot;$variable$ = {$variable$}&quot;)" description="Print F-String Variable" toReformat="false" toShortenFQNames="true">
     <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="pf" value="print(f'$text$')" description="Print F-String" toReformat="false" toShortenFQNames="true">
+  <template name="pf" value="print(f&quot;$text$&quot;)" description="Print F-String" toReformat="false" toShortenFQNames="true">
     <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
