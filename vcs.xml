@@ -9,4 +9,7 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.App.Settings">
+    <option name="LABELS_LEFT_ALIGNED" value="true" />
+  </component>
 </application>
