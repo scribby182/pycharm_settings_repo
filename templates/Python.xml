@@ -11,7 +11,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="npprec" value="with np.printoptions(precision=$prec$, suppress=True):&#10;    print(f'$varname$=\n{$varname$}')" description="Numpy Precision With Block" toReformat="false" toShortenFQNames="true">
+  <template name="precnp" value="with np.printoptions(precision=$prec$, suppress=True):&#10;    print(f'$varname$=\n{$varname$}')" description="Numpy Precision With Block" toReformat="false" toShortenFQNames="true">
     <variable name="prec" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
