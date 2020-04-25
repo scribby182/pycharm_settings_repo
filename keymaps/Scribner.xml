@@ -1,4 +1,8 @@
 <keymap version="1" name="Scribner" parent="$default">
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="alt 9" />
+  </action>
+  <action id="ActivateVersionControlToolWindow" />
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="alt left" />
