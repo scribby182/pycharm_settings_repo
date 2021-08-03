@@ -6,4 +6,11 @@
       <option name="WORKING_DIRECTORY" value="$USER_HOME$/code_git_backed/quick-redraw/secrets" />
     </exec>
   </tool>
+  <tool name="Black" description="Black python formatter" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/miniconda3/bin/black" />
+      <option name="PARAMETERS" value="&quot;$FilePath$&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
 </toolSet>
