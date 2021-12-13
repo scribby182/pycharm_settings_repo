@@ -1,0 +1,10 @@
+<code_scheme name="Default" version="173">
+  <codeStyleSettings language="Markdown">
+    <option name="RIGHT_MARGIN" value="80" />
+    <option name="WRAP_ON_TYPING" value="0" />
+    <option name="SOFT_MARGINS" value="80,120" />
+  </codeStyleSettings>
+  <codeStyleSettings language="Python">
+    <option name="SOFT_MARGINS" value="79,99,120" />
+  </codeStyleSettings>
+</code_scheme>

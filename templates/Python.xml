@@ -1,0 +1,34 @@
+<templateSet group="Python">
+  <template name="pfv" value="print(f&quot;$variable$ = {$variable$}&quot;)" description="Print F-String Variable" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="pf" value="print(f&quot;$text$&quot;)" description="Print F-String" toReformat="false" toShortenFQNames="true">
+    <variable name="text" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="precnp" value="with np.printoptions(precision=$prec$, suppress=True):&#10;    print(f'$varname$=\n{$varname$}')" description="Numpy Precision With Block" toReformat="false" toShortenFQNames="true">
+    <variable name="prec" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="varname" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ifve" value="if $variable$ $condition$:&#10;    pass&#10;elif $variable$ $condition$:&#10;    pass&#10;else:&#10;    raise ValueError(&quot;Invalid value for $variable$ '{$variable$}'&quot;)" description="If block with populated value error" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ve" value="raise ValueError(f'Invalid value for $variable$ &quot;{$variable$}&quot;')" description="ValueError" toReformat="false" toShortenFQNames="true">
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

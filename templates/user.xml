@@ -1,0 +1,19 @@
+<templateSet group="user">
+  <template name="ft" value="FEATURE: $TEXT$" description="new feature comment" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="td" value="TODO: $TEXT$" description="todo comment" toReformat="false" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="license" value="# Copyright 2021 Canonical Ltd.&#10;# See LICENSE file for licensing details.&#10;" description="Add Canonical License" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
