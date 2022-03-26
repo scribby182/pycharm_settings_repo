@@ -4,7 +4,7 @@
       <artifact id="MySQL Connector/J 8" name="MySQL Connector/J 8" use="true" />
     </driver>
     <driver id="sqlite.xerial">
-      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.34.0" />
+      <artifact id="Xerial SQLiteJDBC" name="Xerial SQLiteJDBC" use="true" version="3.36.0.3" />
     </driver>
     <driver id="dda5c332-99f8-4203-8b77-6cc73863d47c" name="db driver" dialect="SQLite" driver-class="org.sqlite.JDBC" icon="AllIcons.Providers.Sqlite">
       <url-template name="default" template="jdbc:sqlite:!(:memory:){file::identifier.sqlite}?" />
