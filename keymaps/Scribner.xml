@@ -42,6 +42,7 @@
   <action id="EditorMoveToPageBottom" />
   <action id="EditorMoveToPageTop" />
   <action id="EditorSelectWord" />
+  <action id="EditorStartNewLineBefore" />
   <action id="EditorUnSelectWord" />
   <action id="FillParagraph">
     <keyboard-shortcut first-keystroke="alt q" />
@@ -65,6 +66,7 @@
     <keyboard-shortcut first-keystroke="ctrl alt left" />
     <keyboard-shortcut first-keystroke="ctrl page_up" />
   </action>
+  <action id="QuickActionPopup" />
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
   </action>
@@ -80,4 +82,8 @@
     <keyboard-shortcut first-keystroke="ctrl x" />
   </action>
   <action id="XDebugger.MoveWatchDown" />
+  <action id="copilot.applyInlays">
+    <keyboard-shortcut first-keystroke="tab" />
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
 </keymap>
