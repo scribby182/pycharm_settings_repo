@@ -83,7 +83,6 @@
   </action>
   <action id="XDebugger.MoveWatchDown" />
   <action id="copilot.applyInlays">
-    <keyboard-shortcut first-keystroke="tab" />
     <keyboard-shortcut first-keystroke="ctrl alt enter" />
   </action>
 </keymap>
