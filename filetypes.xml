@@ -15,7 +15,9 @@
       <mapping ext="rule" type="PLAIN_TEXT" />
       <mapping ext="j2" type="PLAIN_TEXT" />
       <mapping ext="java" type="PLAIN_TEXT" />
+      <removed_mapping ext="txt" type="PLAIN_TEXT" />
       <mapping ext="gin" type="Python" />
+      <mapping ext="txt" type="requirements.txt" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
     </extensionMap>
   </component>
