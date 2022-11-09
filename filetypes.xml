@@ -17,7 +17,6 @@
       <mapping ext="java" type="PLAIN_TEXT" />
       <mapping ext="gin" type="Python" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
-      <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
