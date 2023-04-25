@@ -5,16 +5,16 @@
       <mapping pattern="LICENSE" type="AUTO_DETECTED" />
       <mapping pattern="CODEOWNERS" type="AUTO_DETECTED" />
       <mapping ext="tmpl" type="JSON" />
+      <mapping pattern=".jujuignore" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".spelling" type="PLAIN_TEXT" />
       <mapping pattern="see_course_code_for_more_test_examples" type="PLAIN_TEXT" />
       <mapping pattern="drawings_to_download" type="PLAIN_TEXT" />
-      <mapping pattern=".jujuignore" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="todo" type="PLAIN_TEXT" />
-      <mapping ext="j2" type="PLAIN_TEXT" />
-      <mapping ext="java" type="PLAIN_TEXT" />
       <mapping ext="in" type="PLAIN_TEXT" />
       <mapping ext="rule" type="PLAIN_TEXT" />
+      <mapping ext="j2" type="PLAIN_TEXT" />
+      <mapping ext="java" type="PLAIN_TEXT" />
       <mapping ext="gin" type="Python" />
       <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="txt" approved="true" type="PLAIN_TEXT" />
